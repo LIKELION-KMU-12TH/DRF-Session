@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'drf_yasg',
-    'corsheaders',
     'blog',
 ]
 
@@ -53,10 +52,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
-
-CORS_ORIGING_ALLOW_ALL = True
-CORS_ALLOW_CREDENTIALS = True
 
 
 ROOT_URLCONF = 'practice.urls'
