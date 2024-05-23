@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'drf_yasg',
+    'corsheaders',
     'blog',
 ]
 
@@ -52,15 +53,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 7b4a247334409ecc4f201fd6c81ff925389d25b6
-ROOT_URLCONF = 'practice.urls'
-
-TEMPLATES = [
+[
     {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+    'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
