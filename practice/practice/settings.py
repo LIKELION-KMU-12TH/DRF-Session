@@ -43,7 +43,6 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    "corsheaders.middleware.CorsMiddleware",  # 가능한 최상단에 위치할 것
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -53,7 +52,10 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7b4a247334409ecc4f201fd6c81ff925389d25b6
 ROOT_URLCONF = 'practice.urls'
 
 TEMPLATES = [
